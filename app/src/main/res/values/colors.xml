@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de colores ITANES -->
+    <color name="color_primary">#1565C0</color>
+    <color name="color_primary_dark">#0D47A1</color>
+    <color name="color_secondary">#00897B</color>
+    <color name="color_background">#F7F9FC</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="text_primary">#1F2933</color>
+    <color name="text_secondary">#52606D</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="color_error">#B3261E</color>
+
+    <!-- Colores base adicionales -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

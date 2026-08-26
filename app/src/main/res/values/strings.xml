@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITANES</string>
+    <string name="tour_name">NORTE CHICO</string>
+    <string name="course_label">Trabajo Final - Desarrollo de Aplicaciones Móviles</string>
+    <string name="places_count">5 puntos turísticos</string>
+    <string name="button_explore">Explorar recorrido</string>
+</resources>
