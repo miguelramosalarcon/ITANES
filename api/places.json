@@ -1,1 +1,62 @@
-
+[
+  {
+    "id": 1,
+    "name": "Castillo de Chancay",
+    "shortDescription": "Impresionante castillo de arquitectura medieval a orillas del Océano Pacífico.",
+    "description": "El Castillo de Chancay es un complejo turístico y cultural de estilo medieval renacentista, construido sobre acantilados rocosos con vista al mar. Fue edificado por iniciativa de Doña Consuelo Amat y León en la primera mitad del siglo XX. El recinto cuenta con torres, salones, pasadizos subterráneos, piscinas, museos y zonas de entretenimiento, convirtiéndose en uno de los atractivos más visitados de la costa norte chica.",
+    "address": "Av. Castillo s/n, Zona Turística, Chancay, Perú",
+    "latitude": -11.5833,
+    "longitude": -77.2667,
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/73/60/e2.jpg",
+    "orderNumber": 1,
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": 2,
+    "name": "Complejo Arqueológico de Rupac",
+    "shortDescription": "Ciudadela preincaica conocida como el \"Machu Picchu costeño\".",
+    "description": "Rupac es un importante sitio arqueológico perteneciente a la cultura Atavillos. Ubicado a más de 3,500 metros sobre el nivel del mar, destaca por sus edificaciones de piedra de hasta tres pisos con techos en forma de cúpula y chullpas funerarias en excelente estado de conservación. Es famoso por ofrecer un impresionante fenómeno de mar de nubes al atardecer y al amanecer, ideal para el trekking y el turismo de aventura.",
+    "address": "Distrito de Acos, Provincia de Huaral, Lima, Perú",
+    "latitude": -11.3833,
+    "longitude": -76.8167,
+    "imageUrl": "https://mochileaperu.com/wp-content/uploads/2017/06/rupac-hermoso-2.webp",
+    "orderNumber": 2,
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": 3,
+    "name": "Albufera de Medio Mundo",
+    "shortDescription": "Hermosa reserva natural de humedales costeros rica en biodiversidad.",
+    "description": "La Albufera de Medio Mundo es un área natural protegida que consiste en una gran laguna costera separada del mar por una franja de arena. Es un santuario ecológico que alberga a una gran variedad de aves residentes y migratorias, totorales y flora silvestre. Cuenta con zonas habilitadas para el ecoturismo, paseos en bote, observación de aves y conexión directa con una playa virgen.",
+    "address": "Km 177 de la Panamericana Norte, Vegueta, Huacho, Perú",
+    "latitude": -10.9667,
+    "longitude": -77.6167,
+    "imageUrl": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=430563",
+    "orderNumber": 3,
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": 4,
+    "name": "Ciudad Sagrada de Caral",
+    "shortDescription": "La civilización más antigua de América, Patrimonio de la Humanidad.",
+    "description": "Caral es el yacimiento arqueológico núcleo de la civilización Caral-Supe, considerada la más antigua de América con una antigüedad aproximada de 5,000 años, contemporánea a las pirámides de Egipto. El complejo destaca por su compleja planificación urbana, grandes pirámides truncadas, plazas circulares hundidas y un sistema social avanzado desarrollado en el valle de Supe.",
+    "address": "Valle de Supe, Provincia de Barranca, Lima, Perú",
+    "latitude": -10.8931,
+    "longitude": -77.5219,
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/04/c0/c1.jpg",
+    "orderNumber": 4,
+    "updatedAt": "2026-09-07"
+  },
+  {
+    "id": 5,
+    "name": "Fortaleza de Paramonga",
+    "shortDescription": "Monumental pirámide de adobe de la cultura Chimú e Inca.",
+    "description": "La Fortaleza de Paramonga es un complejo arqueológico constituido principalmente por grandes estructuras de adobe distribuidas en forma de terrazas escalonadas que simulan la figura de un animal mítico. Construida originalmente por la cultura Chimú y posteriormente adaptada por los incas como un centro administrativo y militar estratégico en la ruta del Qhapaq Ñan.",
+    "address": "Distrito de Paramonga, Provincia de Barranca, Lima, Perú",
+    "latitude": -10.6833,
+    "longitude": -77.8167,
+    "imageUrl": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=337856",
+    "orderNumber": 5,
+    "updatedAt": "2026-09-07"
+  }
+]
