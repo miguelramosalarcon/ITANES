@@ -24,6 +24,9 @@ public interface PlaceDao {
     @Query("SELECT * FROM places WHERE id = :id")
     PlaceEntity getPlaceById(int id);
 
+    @Query("SELECT COUNT(*) FROM places")
+    int getCount();
+
     @Query("DELETE FROM places")
     void deleteAll();
 }

@@ -4,4 +4,22 @@
     <string name="course_label">Trabajo Final - Desarrollo de Aplicaciones Móviles</string>
     <string name="places_count">5 puntos turísticos</string>
     <string name="button_explore">Explorar recorrido</string>
+    <string name="places_discovery_title">5 lugares para descubrir</string>
+    <string name="place_image_description">Imagen del lugar</string>
+    <string name="label_address">Dirección:</string>
+    <string name="label_latitude">Latitud:</string>
+    <string name="label_longitude">Longitud:</string>
+    <string name="btn_favorite_add">♡ Guardar en favoritos</string>
+    <string name="btn_favorite_remove">♥ Quitar de favoritos</string>
+    <string name="btn_share">Compartir</string>
+    <string name="btn_map">Ver en mapa</string>
+    <string name="error_place_not_found">Lugar no encontrado</string>
+    <string name="share_chooser_title">Compartir lugar con...</string>
+    <string name="share_error_no_app">No hay aplicaciones disponibles para compartir</string>
+    <string name="share_footer">Compartido desde %1$s</string>
+    <string name="map_loading">Cargando mapa...</string>
+    <string name="error_invalid_coordinates">Coordenadas del lugar inválidas</string>
+    <string name="btn_back_description">Volver a la pantalla anterior</string>
+    <string name="btn_zoom_in_description">Acercar mapa</string>
+    <string name="btn_zoom_out_description">Alejar mapa</string>
 </resources>

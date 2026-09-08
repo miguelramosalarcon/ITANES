@@ -7,14 +7,17 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 import pe.miguelramos.itanes.data.local.dao.PlaceDao;
+import pe.miguelramos.itanes.data.local.dao.FavoriteDao;
 import pe.miguelramos.itanes.data.local.entity.PlaceEntity;
+import pe.miguelramos.itanes.data.local.entity.FavoriteEntity;
 
-@Database(entities = {PlaceEntity.class}, version = 1, exportSchema = false)
+@Database(entities = {PlaceEntity.class, FavoriteEntity.class}, version = 2, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static volatile AppDatabase instance;
 
     public abstract PlaceDao placeDao();
+    public abstract FavoriteDao favoriteDao();
 
     public static AppDatabase getInstance(final Context context) {
         if (instance == null) {
@@ -24,7 +27,9 @@ public abstract class AppDatabase extends RoomDatabase {
                             context.getApplicationContext(),
                             AppDatabase.class,
                             "itanes_database"
-                    ).build();
+                    )
+                    .fallbackToDestructiveMigration()
+                    .build();
                 }
             }
         }

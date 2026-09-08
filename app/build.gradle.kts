@@ -38,10 +38,22 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
+    implementation(libs.recyclerview)
 
     // Room
     implementation(libs.room.runtime)
     annotationProcessor(libs.room.compiler)
+
+    // Glide
+    implementation(libs.glide)
+    annotationProcessor(libs.glideCompiler)
+
+    // MapLibre
+    implementation(libs.maplibre)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)

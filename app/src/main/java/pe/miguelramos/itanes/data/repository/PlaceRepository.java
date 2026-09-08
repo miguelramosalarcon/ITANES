@@ -25,6 +25,10 @@ public class PlaceRepository {
         return placeDao.getPlaceById(id);
     }
 
+    public int getCount() {
+        return placeDao.getCount();
+    }
+
     public void insertAll(List<PlaceEntity> places) {
         placeDao.insertAll(places);
     }
